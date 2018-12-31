@@ -18,7 +18,7 @@
 ## Pretrained Embedding
 - We use [300-dim Korean fastText](https://github.com/facebookresearch/fastText). This embedding basically based on words(어절), but most of the characters(음절) can be covered by fastText, 
 so we also used fastText for character embedding.
-- Take out the words and characters that are only in train data sentences and make it into to binary file with pickle library 
+- Take out the words and characters that are only in train data sentences and make it into to binary file with pickle library. 
 
 ## Requirements
 ### 1. git-lfs
