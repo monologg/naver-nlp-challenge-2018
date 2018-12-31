@@ -29,7 +29,6 @@ $ sudo apt-get install git-lfs
 ```
 
 ### 2. pip
-- python3 (3.5, 3.6 all compatible)
 - tensorflow (tested on 1.4.1 and 1.11.0)
 - numpy
 
