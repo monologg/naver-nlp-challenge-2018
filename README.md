@@ -21,11 +21,15 @@ so we also used fastText for character embedding.
 - Take out the words and characters that are only in train data sentences and make it into to binary file with pickle library. 
 
 ## Requirements
-### 1. git-lfs
-- For installing word pretrained embedding (400MB)
-- https://github.com/git-lfs/git-lfs/wiki/Installation
+### 1. Download pretrained embedding
+- For installing word pretrained embedding (400MB) and char pretrained embedding (5MB)
+1. Download from this [Google Drive Link](https://drive.google.com/drive/folders/1s3FPxHu1YvJnP49c5i76Vr1rY631ah_d?usp=sharing) 
+2. Make 'word2vec' directory from root directory
+3. Put those two file in the 'word2vec' directory
 ```
-$ sudo apt-get install git-lfs
+$ mkdir word2vec
+$ mv word_emb_dim_300.pkl word2vec
+$ mv char_emb_dim_300.pkl word2vec
 ```
 
 ### 2. pip
@@ -34,7 +38,7 @@ $ sudo apt-get install git-lfs
 
 ## Run
 ```
-$ python main.py
+$ python3 main.py
 ```
 
 ## Other
