@@ -23,9 +23,9 @@ so we also used fastText for character embedding.
 ## Requirements
 ### 1. Download pretrained embedding
 - For installing word pretrained embedding (400MB) and char pretrained embedding (5MB)
-1. Download from this [Google Drive Link](https://drive.google.com/drive/folders/1s3FPxHu1YvJnP49c5i76Vr1rY631ah_d?usp=sharing) 
-2. Make 'word2vec' directory from root directory
-3. Put those two file in the 'word2vec' directory
+1. Download from this [Google Drive Link](https://drive.google.com/drive/folders/1s3FPxHu1YvJnP49c5i76Vr1rY631ah_d?usp=sharing).
+2. Make 'word2vec' directory from root directory.
+3. Put those two file in the 'word2vec' directory.
 ```
 $ mkdir word2vec
 $ mv word_emb_dim_300.pkl word2vec
