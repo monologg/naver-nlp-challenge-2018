@@ -45,6 +45,6 @@ $ python3 main.py
 - Link for Naver NLP Challenge: https://github.com/naver/nlp-challenge
 - Slideshare Link (Korean): https://www.slideshare.net/JangWonPark8/nlp-challenge
 
-## Contributer
+## Contributors
 - Park, Jang Won (https://github.com/monologg)
 - Lee, Seanie (https://github.com/seanie12)
